@@ -7,7 +7,7 @@ import numpy as np
 # ==============================
 st.set_page_config(
     page_title="Sales Prediction App",
-    page_icon="💰",
+    page_icon=" ",
     layout="centered"
 )
 
