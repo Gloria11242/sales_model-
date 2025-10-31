@@ -18,7 +18,7 @@ st.set_page_config(
 def load_model():
     try:
         model = joblib.load("sales_prediction_model.pkl")
-        st.sidebar.success("✅ Model loaded successfully!")  # Optional: Confirms in sidebar
+        st.sidebar.success("Model loaded successfully!")  # Optional: Confirms in sidebar
         return model
     except FileNotFoundError:
         st.error(" Model file 'sales_prediction_model.pkl' not found. Upload it to your repo!")
